@@ -1,73 +1,94 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
+# Rule of Thumb.
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+_Rule of Thumb using react-query, MongoDB, NestJS and Next Js_
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Starting 🚀
 
-## Description
+_Following next instructions you will be able to run the project locally and have fun playing around with it._
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### Pre-requisites 📋
 
-## Installation
+_Before starting, you will need to have Node JS installed in your computer._
 
-```bash
-$ npm install
+_Run next line to check if Node JS is installed._
+
+```
+node --version
 ```
 
-## Running the app
+_If you can see the version, then you are ready to go, otherwise, install Node JS from node webpage first._
 
-```bash
-# development
-$ npm run start
+### Installation 🔧
 
-# watch mode
-$ npm run start:dev
+_Follow next steps to test the project in your local environment._
 
-# production mode
-$ npm run start:prod
+_Clone Frontend Repo_
+
+```
+git clone https://github.com/isaacromerop/ui-zem-test.git
 ```
 
-## Test
+_Clone Backend Repo_
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+```
+git clone https://github.com/isaacromerop/back-zem-test.git
 ```
 
-## Support
+_Now you have to configure your local environment._
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+_Start a terminal inside /zemoga folder from ui-zem-test and then install all dependencies with:_
 
-## Stay in touch
+```
+npm install
+```
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+_Then, start a new terminal inside /zemoga-back folder from back-zem-test and then install all dependencies with:_
 
-## License
+```
+npm install
+```
 
-Nest is [MIT licensed](LICENSE).
+_Next inside /zemoga folder from ui-zem-test, create a build using the next line of code using your terminal._
+
+```
+npm run build
+```
+
+_Now inside /zemoga folder from ui-zem-test, start the server using the next line of code using your terminal._
+
+```
+npm run start
+```
+
+_After that, open another terminal inside /zemoga-back folder from back-zem-test and run the next:_
+
+```
+npm run start
+```
+
+_Now you have both server and client side running._
+
+_Open chrome (or your preferred browser) and go to localhost:3000._
+
+## Techs used 🛠️
+
+_Main tools of this project:_
+
+- [React Query](https://react-query.tanstack.com/) - Performant and powerful data synchronization for React
+- [Next.js](https://nextjs.org/) - The React Framework for Production
+- [NestJS](https://nestjs.com/) - Hello, nest!
+- [MongoDB](https://www.mysql.com/) - Build faster. Build smarter.​​
+
+## Authors ✒️
+
+_Created and developed by_
+
+- **Isaac Romero** - _Creator_ - [isaacromerop](https://github.com/isaacromerop)
+
+## Hope you enjoy it! 🎁
+
+- Long live to coders! 🤓.
+
+---
+
+⌨️ with ❤️ by [isaacromerop](https://github.com/isaacromerop) 😊
